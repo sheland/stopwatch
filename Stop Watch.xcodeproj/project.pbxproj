@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		7DFF92432212797D00A9D539 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFF92422212797D00A9D539 /* AppDelegate.swift */; };
-		7DFF92452212797D00A9D539 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFF92442212797D00A9D539 /* ViewController.swift */; };
 		7DFF92482212797D00A9D539 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DFF92462212797D00A9D539 /* Main.storyboard */; };
 		7DFF924A2212797E00A9D539 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DFF92492212797E00A9D539 /* Assets.xcassets */; };
 		7DFF924D2212797E00A9D539 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DFF924B2212797E00A9D539 /* LaunchScreen.storyboard */; };
 		7DFF92582212797E00A9D539 /* Stop_WatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFF92572212797E00A9D539 /* Stop_WatchTests.swift */; };
 		7DFF92632212797E00A9D539 /* Stop_WatchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFF92622212797E00A9D539 /* Stop_WatchUITests.swift */; };
+		7DFF927122127DB900A9D539 /* StopWatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFF927022127DB900A9D539 /* StopWatchViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 /* Begin PBXFileReference section */
 		7DFF923F2212797D00A9D539 /* Stop Watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stop Watch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DFF92422212797D00A9D539 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7DFF92442212797D00A9D539 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7DFF92472212797D00A9D539 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7DFF92492212797E00A9D539 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7DFF924C2212797E00A9D539 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +46,7 @@
 		7DFF925E2212797E00A9D539 /* Stop WatchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Stop WatchUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DFF92622212797E00A9D539 /* Stop_WatchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stop_WatchUITests.swift; sourceTree = "<group>"; };
 		7DFF92642212797E00A9D539 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DFF927022127DB900A9D539 /* StopWatchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopWatchViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +77,7 @@
 		7DFF92362212797D00A9D539 = {
 			isa = PBXGroup;
 			children = (
+				7DFF927022127DB900A9D539 /* StopWatchViewController.swift */,
 				7DFF92412212797D00A9D539 /* Stop Watch */,
 				7DFF92562212797E00A9D539 /* Stop WatchTests */,
 				7DFF92612212797E00A9D539 /* Stop WatchUITests */,
@@ -98,7 +99,6 @@
 			isa = PBXGroup;
 			children = (
 				7DFF92422212797D00A9D539 /* AppDelegate.swift */,
-				7DFF92442212797D00A9D539 /* ViewController.swift */,
 				7DFF92462212797D00A9D539 /* Main.storyboard */,
 				7DFF92492212797E00A9D539 /* Assets.xcassets */,
 				7DFF924B2212797E00A9D539 /* LaunchScreen.storyboard */,
@@ -256,7 +256,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7DFF92452212797D00A9D539 /* ViewController.swift in Sources */,
+				7DFF927122127DB900A9D539 /* StopWatchViewController.swift in Sources */,
 				7DFF92432212797D00A9D539 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
